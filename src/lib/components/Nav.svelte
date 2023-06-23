@@ -62,6 +62,7 @@
 	nav {
 		background-color: var(--nav-color);
 		padding: 1rem;
+		transition: background-color 250ms;
 	}
 
 	ul {

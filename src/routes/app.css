@@ -24,7 +24,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	line-height: 1.6;
 	font-size: 1.25rem;
-	transition: color 1000ms linear, background-color 1000ms linear;
+	transition: color 250ms, background-color 250ms;
 }
 
 a {
@@ -47,5 +47,5 @@ button {
 
 h1 {
 	color: var(--accent-color);
-	transition: color 1000ms linear;
+	transition: color 250ms;
 }
