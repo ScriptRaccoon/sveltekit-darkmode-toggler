@@ -1,4 +1,4 @@
-# Dark Mode Toggle in SvelteKit (SSR)
+# Dark Mode Toggle in SvelteKit (Cookies)
 
 This repository demonstrates how to integrate a dark mode toggle into a SvelteKit application.
 
@@ -22,3 +22,9 @@ A different, more server-side approach is taken here:
 -   HuntaByte, _SvelteKit Dark Mode Toggle/Theme Selector (with SSR)_, https://www.youtube.com/watch?v=3GpZkVBjXfE
 
 This prevents the initial flash but does not take into account the initial user preference with a media query.
+
+## Related
+
+A more simple solution, using `localStorage` but without the flashing, can be found here:
+
+https://github.com/ScriptRaccoon/sveltekit-darkmode-toggler-localstorage
